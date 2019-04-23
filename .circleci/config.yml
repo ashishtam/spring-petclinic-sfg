@@ -28,4 +28,4 @@ jobs: # a collection of steps
           key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
 
       # run tests!
-      - run: mvn integration-test
+      - run: mvn test
